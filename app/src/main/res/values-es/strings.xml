@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="form_instructions">Llene todo lo solicitado</string>
+
+    <!-- MainActivity-->
+    <string name="main_name">Nombre</string>
+    <string name="main_lucky">Tu numero de la suerte es</string>
+    <string name="main_number">Numero</string>
+    <!-- MainActivity-->
+
+    <!-- ProfileActivity-->
+    <string name="profile_first_text">Escribe tu nombre aquí</string>
+    <string name="profile_second_text">Escribe tu edad aquí</string>
+    <string name="profile_the_button">Presiona aquí!!!</string>
+    <!-- ProfileActivity-->
+</resources>

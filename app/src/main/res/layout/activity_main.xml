@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/black">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/shisui"
+        tools:src="@drawable/ic_launcher_foreground" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/form_instructions"
+        android:textSize="28sp"
+        android:textColor="@color/red_A22"
+        android:background="@color/cianB1F"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:padding="15dp"
+        android:layout_marginTop="35dp"
+        
+    />
+
+    <TextView
+        android:id="@+id/text_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_name"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:background="@color/cianB1F"
+        android:textColor="@color/black"
+    />
+
+    <TextView
+        android:id="@+id/text_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_lucky"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:background="@color/cianB1F"
+
+    />
+
+    <TextView
+        android:id="@+id/text_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_number"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="@color/cianB1F"
+        android:textColor="@color/design_default_color_on_secondary"
+
+    />
+
+    <EditText
+        android:id="@+id/date_1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="@string/profile_first_text"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:background="@color/red_A22"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="10dp"
+
+    />
+
+    <EditText
+        android:id="@+id/date_2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="@string/profile_second_text"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:background="@color/red_A22"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <Button
+        android:id="@+id/go_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_the_button"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/red_A22"
+        android:textColor="@color/black"
+    />
+
+</LinearLayout>

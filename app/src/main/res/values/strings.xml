@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name" translatable="false">MyFirstAndroidApp</string>
+    <string name="form_instructions">Fill all data</string>
+
+    <!-- MainActivity-->
+    <string name="main_name">Name</string>
+    <string name="main_lucky">Your lucky number is</string>
+    <string name="main_number">Number...</string>
+    <!-- MainActivity-->
+
+    <!-- ProfileActivity-->
+    <string name="profile_first_text">Write your name here</string>
+    <string name="profile_second_text">Write your age here</string>
+    <string name="profile_the_button">Press here!!!</string>
+    <!-- ProfileActivity-->
+</resources>
